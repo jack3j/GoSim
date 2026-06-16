@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cc3hffqbq321j"]
+
+[ext_resource type="Texture2D" uid="uid://djxe467wtggot" path="res://assets/materials/Net/Net004A_1K-PNG_Color_Clear.png" id="1_6sckd"]
+[ext_resource type="Texture2D" uid="uid://dgjsimc64ekln" path="res://assets/materials/Net/Net004A_1K-PNG_Displacement.png" id="Displacement"]
+[ext_resource type="Texture2D" uid="uid://b8hd76g4sq1iy" path="res://assets/materials/Net/Net004A_1K-PNG_NormalGL.png" id="NormalGL"]
+[ext_resource type="Texture2D" uid="uid://esnerr27bpfw" path="res://assets/materials/Net/Net004A_1K-PNG_Roughness.png" id="Roughness"]
+
+[resource]
+transparency = 1
+albedo_texture = ExtResource("1_6sckd")
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_enabled = true
+normal_texture = ExtResource("NormalGL")
+heightmap_enabled = true
+heightmap_scale = 1.0
+heightmap_texture = ExtResource("Displacement")
+uv1_scale = Vector3(20, 20, 20)

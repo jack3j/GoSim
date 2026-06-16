@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://wwxh5phwcvuu"]
+
+[ext_resource type="Texture2D" uid="uid://t4fsadlgvqr6" path="res://assets/materials/Scratches003_1K-PNG/Scratches003_1K-PNG_Color_Transparent_Darker.png" id="1_ppsh0"]
+[ext_resource type="Texture2D" uid="uid://dgg2de6ca6m2h" path="res://assets/materials/Scratches003_1K-PNG/Scratches003_1K-PNG_NormalGL.png" id="NormalGL"]
+
+[resource]
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("1_ppsh0")
+normal_enabled = true
+normal_texture = ExtResource("NormalGL")
+uv1_scale = Vector3(12, 12, 12)

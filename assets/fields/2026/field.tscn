@@ -1,0 +1,2556 @@
+[gd_scene format=3 uid="uid://bmywg7gml15dv"]
+
+[ext_resource type="PackedScene" uid="uid://nsft25gse4fg" path="res://assets/fields/2026/field.glb" id="1_utsui"]
+[ext_resource type="Material" uid="uid://es10jhmtf6ab" path="res://assets/materials/Carpet/Carpet016_1K-PNG.tres" id="2_5rvun"]
+[ext_resource type="Material" uid="uid://mko567y4moty" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Blue.tres" id="2_6ft52"]
+[ext_resource type="Material" uid="uid://d2b8ybg6yqash" path="res://assets/materials/DiamondPlate/DiamondPlate008C_1K-PNG.tres" id="2_21r1g"]
+[ext_resource type="Material" uid="uid://shayw0ty1epd" path="res://assets/materials/MetalPainted/Metal031_1K-PNG.tres" id="2_marwo"]
+[ext_resource type="Material" uid="uid://b6p2e0ous704e" path="res://assets/materials/Tape/blue.tres" id="2_ndb66"]
+[ext_resource type="Material" uid="uid://c7t3nwsqppgv7" path="res://assets/materials/Plastic/Plastic012B_1K-PNG_Blue.tres" id="3_hjrhs"]
+[ext_resource type="Material" path="res://assets/materials/MetalShiny/Metal049A_1K-PNG.tres" id="4_8xcjm"]
+[ext_resource type="Material" uid="uid://ct1gcswj7uve3" path="res://assets/materials/Plastic/Plastic012B_1K-PNG.tres" id="5_dtukd"]
+[ext_resource type="Texture2D" uid="uid://bwd8aagxpl7ks" path="res://assets/materials/Plastic/Plastic012B_1K-PNG_Color_Red.png" id="5_i5i0b"]
+[ext_resource type="Material" uid="uid://djwyi7fmtftyp" path="res://assets/materials/Plastic/Plastic012B_1K-PNG_Red.tres" id="5_kf3e2"]
+[ext_resource type="Material" uid="uid://c238uq2vmxgrd" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Red.tres" id="6_id5he"]
+[ext_resource type="Texture2D" uid="uid://b7ol0wwr25q47" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Color_Red.png" id="7_dtukd"]
+[ext_resource type="Material" uid="uid://b6qchgwg7k2jm" path="res://assets/materials/MetalBrushed/Metal011_1K-PNG.tres" id="7_q0ooq"]
+[ext_resource type="Material" uid="uid://cc3hffqbq321j" path="res://assets/materials/Net/Net004A_1K-PNG.tres" id="8_i5i0b"]
+[ext_resource type="Material" uid="uid://wwxh5phwcvuu" path="res://assets/materials/Scratches003_1K-PNG/Scratches003_1K-PNG.tres" id="9_6c2sn"]
+[ext_resource type="Material" uid="uid://fwcvqlnxboev" path="res://assets/materials/Tape/white.tres" id="12_vmc54"]
+[ext_resource type="Material" uid="uid://d30v5atpj6tnb" path="res://assets/materials/Tape/red.tres" id="13_o2opq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bsd6l"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h163e"]
+albedo_texture = ExtResource("5_i5i0b")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q0ooq"]
+albedo_texture = ExtResource("7_dtukd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6c2sn"]
+albedo_texture = ExtResource("7_dtukd")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ndb66"]
+albedo_texture = ExtResource("7_dtukd")
+
+[node name="field" unique_id=180402352 instance=ExtResource("1_utsui")]
+
+[node name="Gaffer Tape, Red, 2in Wide, 317_19in Long" parent="." index="0" unique_id=300150674]
+material_override = SubResource("StandardMaterial3D_bsd6l")
+
+[node name="GE-26601-02_ Depot, Side Tube" parent="." index="10" unique_id=907859346]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26601-01_ Depot, Front Tube" parent="." index="11" unique_id=1392655403]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26601-02_ Depot, Side Tube_001" parent="." index="12" unique_id=1527717327]
+material_override = ExtResource("6_id5he")
+
+[node name="Gaffer Tape, Blue, 2in Wide, 317_19in Long" parent="." index="14" unique_id=300043250]
+material_override = ExtResource("2_ndb66")
+
+[node name="GE-26601-02_ Depot, Side Tube_002" parent="." index="15" unique_id=852545235]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26601-02_ Depot, Side Tube_003" parent="." index="16" unique_id=2131505475]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26601-01_ Depot, Front Tube_001" parent="." index="17" unique_id=1540428638]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26101_ Bump Plastic" parent="." index="19" unique_id=840906456]
+material_override = ExtResource("5_kf3e2")
+
+[node name="GE-26101_ Bump Plastic_001" parent="." index="20" unique_id=108038558]
+material_override = ExtResource("5_kf3e2")
+
+[node name="GE-26107_ Bump Pin" parent="." index="21" unique_id=328094018]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_001" parent="." index="22" unique_id=1260106101]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib" parent="." index="23" unique_id=1627455830]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH" parent="." index="25" unique_id=1966502421]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_001" parent="." index="26" unique_id=359090416]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_001" parent="." index="27" unique_id=1170145320]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH" parent="." index="28" unique_id=1581663096]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH" parent="." index="29" unique_id=1755014249]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_001" parent="." index="30" unique_id=1592783616]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body" parent="." index="31" unique_id=1470729077]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_001" parent="." index="32" unique_id=494772567]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_002" parent="." index="33" unique_id=1159731126]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_002" parent="." index="34" unique_id=2040943844]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_002" parent="." index="35" unique_id=973063642]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_003" parent="." index="36" unique_id=1440757674]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_002" parent="." index="37" unique_id=105088867]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_003" parent="." index="38" unique_id=1394260674]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_001" parent="." index="39" unique_id=907291461]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_003" parent="." index="40" unique_id=376663486]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_003" parent="." index="41" unique_id=1378940127]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_001" parent="." index="42" unique_id=144664790]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26503_ Tower Rung" parent="." index="43" unique_id=54703887]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26508_ Tower Upright Gusset" parent="." index="44" unique_id=1907297987]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26506_ Tower Upper Plastic" parent="." index="45" unique_id=1776058460]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26503_ Tower Rung_001" parent="." index="46" unique_id=2089996625]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26509_ Tower Support Gusset" parent="." index="50" unique_id=421799166]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26509_ Tower Support Gusset_001" parent="." index="51" unique_id=237790041]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26510_ Tower Support Tube" parent="." index="52" unique_id=1060753480]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26509_ Tower Support Gusset_002" parent="." index="53" unique_id=805695875]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26509_ Tower Support Gusset_003" parent="." index="54" unique_id=90936158]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26510_ Tower Support Tube_001" parent="." index="55" unique_id=1656538431]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26507_ Tower Brace" parent="." index="56" unique_id=528840930]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26508_ Tower Upright Gusset_001" parent="." index="57" unique_id=1056166800]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26502-03_ Tower Upright Plug" parent="." index="58" unique_id=1071166106]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26502-02_ Tower Upright Inner" parent="." index="59" unique_id=1140633387]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26502-01_ Tower Upright Outer" parent="." index="60" unique_id=796261255]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube" parent="." index="64" unique_id=970731645]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-04_ Outpost Frame Round Tube" parent="." index="65" unique_id=47772405]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube" parent="." index="66" unique_id=1753046996]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-03_ Outpost Frame Mid Tube" parent="." index="67" unique_id=194384938]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_001" parent="." index="68" unique_id=693158671]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_001" parent="." index="69" unique_id=278227100]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26501-02_ Tower Base Angle" parent="." index="70" unique_id=619141586]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-01_ Tower Base Bottom" parent="." index="71" unique_id=1983741597]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-02_ Tower Base Angle_001" parent="." index="72" unique_id=788553983]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-02_ Tower Base Angle_002" parent="." index="73" unique_id=1877964299]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-02_ Tower Base Angle_003" parent="." index="74" unique_id=1766259956]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26507_ Tower Brace_001" parent="." index="75" unique_id=222408510]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26505_ Tower Lower Plastic" parent="." index="76" unique_id=190232552]
+material_override = ExtResource("5_dtukd")
+
+[node name="FE-00060_ Top Rail, Post" parent="." index="77" unique_id=1977928707]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26004-01_ Outpost Welded Perimeter Top Rail" parent="." index="78" unique_id=1833739269]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00060_ Top Rail, Post_001" parent="." index="79" unique_id=1624278552]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26503_ Tower Rung_002" parent="." index="80" unique_id=652545163]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26502-03_ Tower Upright Plug_001" parent="." index="81" unique_id=1790176190]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26502-02_ Tower Upright Inner_001" parent="." index="82" unique_id=1864466673]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26502-01_ Tower Upright Outer_001" parent="." index="83" unique_id=1628654886]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26101_ Bump Plastic_002" parent="." index="84" unique_id=1523504024]
+material_override = ExtResource("3_hjrhs")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_004" parent="." index="85" unique_id=574397064]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_004" parent="." index="86" unique_id=1770834217]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_004" parent="." index="87" unique_id=1575960951]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_005" parent="." index="88" unique_id=1414961439]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_002" parent="." index="90" unique_id=1111075199]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_004" parent="." index="91" unique_id=1673051987]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_005" parent="." index="92" unique_id=1747233997]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_002" parent="." index="93" unique_id=1108672491]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_005" parent="." index="94" unique_id=1935757927]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_002" parent="." index="95" unique_id=461944700]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_006" parent="." index="96" unique_id=1673655793]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_003" parent="." index="97" unique_id=613409322]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_006" parent="." index="98" unique_id=285531762]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_006" parent="." index="99" unique_id=2093531673]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_006" parent="." index="100" unique_id=1454760228]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_003" parent="." index="101" unique_id=354006753]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_007" parent="." index="102" unique_id=153116886]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_007" parent="." index="103" unique_id=826980978]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_007" parent="." index="104" unique_id=309447857]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_007" parent="." index="105" unique_id=1299228045]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_003" parent="." index="106" unique_id=830550241]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26101_ Bump Plastic_003" parent="." index="107" unique_id=1424542690]
+material_override = ExtResource("3_hjrhs")
+
+[node name="GE-26211_ Trench Outside Skirt" parent="." index="109" unique_id=833064882]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26225_ Trench Fixed Arm Bracket" parent="." index="113" unique_id=252617040]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26213_ Trench Side Skirt" parent="." index="114" unique_id=1782385559]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26224_ Trench Fixed Arm" parent="." index="115" unique_id=1676933923]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26212_ Trench Inside Skirt" parent="." index="116" unique_id=1472368756]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26222-01_ Trench Fixed Riser Inside Body" parent="." index="117" unique_id=1133988560]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26221-01_ Trench Fixed Riser Outside Body" parent="." index="118" unique_id=1203556684]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26208_ Trench Riser Bottom" parent="." index="119" unique_id=534284019]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26225_ Trench Fixed Arm Bracket_001" parent="." index="120" unique_id=1177263039]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26213_ Trench Side Skirt_001" parent="." index="125" unique_id=1165237153]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26211_ Trench Outside Skirt_001" parent="." index="127" unique_id=2047795697]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26213_ Trench Side Skirt_002" parent="." index="128" unique_id=1037665906]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26216-01_ Trench Arm Pin Body" parent="." index="130" unique_id=646407434]
+material_override = ExtResource("4_8xcjm")
+
+[node name="6303K57_ Lever Handle with Ball Knob" parent="." index="131" unique_id=1713009839]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26215_ Trench Pivot Shaft" parent="." index="132" unique_id=1667211593]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26219_ Trench Top Hard Stop" parent="." index="133" unique_id=430552337]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26212_ Trench Inside Skirt_001" parent="." index="134" unique_id=1488842995]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26213_ Trench Side Skirt_003" parent="." index="138" unique_id=1063866926]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26207-01_ Trench Hinged Riser Top" parent="." index="139" unique_id=1571840174]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26209_ Trench Hinged Riser Doubler Plate" parent="." index="140" unique_id=540469440]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26209_ Trench Hinged Riser Doubler Plate_001" parent="." index="141" unique_id=1480769441]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26210_ Trench Hinged Riser Sleeve" parent="." index="142" unique_id=815096435]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26210_ Trench Hinged Riser Sleeve_001" parent="." index="143" unique_id=309307778]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26208_ Trench Riser Bottom_001" parent="." index="144" unique_id=565912911]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26210_ Trench Hinged Riser Sleeve_002" parent="." index="145" unique_id=1225615372]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26205-01_ Trench Hinged Riser Outside Body" parent="." index="146" unique_id=343442844]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26206-01_ Trench Hinged Riser Inside Body" parent="." index="147" unique_id=1138596533]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26218-01_ Trench Bottom Hard Stop Body" parent="." index="148" unique_id=1058051302]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26218-01_ Trench Bottom Hard Stop Body_001" parent="." index="149" unique_id=383482328]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26214-02_ Trench Hinged Arm Cross Tube" parent="." index="150" unique_id=1533538312]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26214-01_ Trench Hinged Arm Main Tube" parent="." index="151" unique_id=323560382]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26214-05_ Trench Hinged Arm Side Cap" parent="." index="152" unique_id=56143163]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26214-05_ Trench Hinged Arm Side Cap_001" parent="." index="153" unique_id=2079805724]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26214-03_ Trench Hinged Arm Side Tube" parent="." index="154" unique_id=491317164]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26214-04_ Trench Hinged Arm End Cap" parent="." index="155" unique_id=1164183780]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26214-06_ Trench Hinged Arm Pivot Tube" parent="." index="156" unique_id=1309766108]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26214-06_ Trench Hinged Arm Pivot Tube_001" parent="." index="157" unique_id=1181724681]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26214-03_ Trench Hinged Arm Side Tube_001" parent="." index="158" unique_id=1923137563]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26217-01_ Trench Counterbalance Riser Pin" parent="." index="162" unique_id=511734492]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26101_ Bump Plastic_004" parent="." index="164" unique_id=144226598]
+material_override = SubResource("StandardMaterial3D_h163e")
+
+[node name="GE-26101_ Bump Plastic_005" parent="." index="165" unique_id=1044829124]
+material_override = ExtResource("5_kf3e2")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_004" parent="." index="166" unique_id=1439588413]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_008" parent="." index="167" unique_id=380455037]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_008" parent="." index="168" unique_id=967186313]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_008" parent="." index="169" unique_id=665391995]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_009" parent="." index="170" unique_id=464419113]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_008" parent="." index="171" unique_id=897233292]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_009" parent="." index="172" unique_id=1029602344]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_004" parent="." index="173" unique_id=427058204]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_009" parent="." index="174" unique_id=1649736373]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_009" parent="." index="175" unique_id=640774722]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_004" parent="." index="176" unique_id=1584670157]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_010" parent="." index="177" unique_id=749655462]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_010" parent="." index="178" unique_id=9294887]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_005" parent="." index="179" unique_id=393467000]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_010" parent="." index="180" unique_id=111341537]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_010" parent="." index="181" unique_id=1021517403]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_011" parent="." index="182" unique_id=1583201987]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_011" parent="." index="183" unique_id=50736826]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_011" parent="." index="184" unique_id=1640703441]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_011" parent="." index="185" unique_id=185249240]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_005" parent="." index="186" unique_id=558975401]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_005" parent="." index="187" unique_id=1884628872]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26508_ Tower Upright Gusset_002" parent="." index="188" unique_id=960543603]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26505_ Tower Lower Plastic_001" parent="." index="189" unique_id=699279695]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26508_ Tower Upright Gusset_003" parent="." index="190" unique_id=1054408817]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26503_ Tower Rung_003" parent="." index="191" unique_id=764137754]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26507_ Tower Brace_002" parent="." index="192" unique_id=1784906948]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26503_ Tower Rung_004" parent="." index="193" unique_id=1434285762]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26001-03_ Outpost Frame Mid Tube_001" parent="." index="194" unique_id=1323910156]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_002" parent="." index="195" unique_id=1961569538]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-04_ Outpost Frame Round Tube_001" parent="." index="196" unique_id=1806470683]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_003" parent="." index="197" unique_id=724090927]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_002" parent="." index="198" unique_id=1393303116]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_003" parent="." index="199" unique_id=1670305893]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26503_ Tower Rung_005" parent="." index="200" unique_id=1368517354]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26502-03_ Tower Upright Plug_002" parent="." index="201" unique_id=1247284643]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26502-01_ Tower Upright Outer_002" parent="." index="202" unique_id=1329901339]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26502-02_ Tower Upright Inner_002" parent="." index="203" unique_id=406595859]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26509_ Tower Support Gusset_004" parent="." index="204" unique_id=1096321099]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26510_ Tower Support Tube_002" parent="." index="205" unique_id=49748677]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26509_ Tower Support Gusset_005" parent="." index="206" unique_id=108676084]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26509_ Tower Support Gusset_006" parent="." index="213" unique_id=2092063656]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26510_ Tower Support Tube_003" parent="." index="214" unique_id=109101673]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26509_ Tower Support Gusset_007" parent="." index="215" unique_id=582656133]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26506_ Tower Upper Plastic_001" parent="." index="216" unique_id=1570640515]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26502-03_ Tower Upright Plug_003" parent="." index="217" unique_id=2010071820]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26502-01_ Tower Upright Outer_003" parent="." index="218" unique_id=715610892]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26502-02_ Tower Upright Inner_003" parent="." index="219" unique_id=1539940595]
+material_override = ExtResource("2_6ft52")
+
+[node name="GE-26507_ Tower Brace_003" parent="." index="220" unique_id=1410446811]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00060_ Top Rail, Post_002" parent="." index="221" unique_id=1746156558]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00060_ Top Rail, Post_003" parent="." index="222" unique_id=385922305]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26004-01_ Outpost Welded Perimeter Top Rail_001" parent="." index="223" unique_id=995317967]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26501-02_ Tower Base Angle_004" parent="." index="224" unique_id=1084419071]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-02_ Tower Base Angle_005" parent="." index="225" unique_id=2005311893]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-01_ Tower Base Bottom_001" parent="." index="226" unique_id=1512145209]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-02_ Tower Base Angle_006" parent="." index="227" unique_id=1015835583]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26501-02_ Tower Base Angle_007" parent="." index="228" unique_id=1401401027]
+material_override = ExtResource("2_marwo")
+
+[node name="34_5in Long 2in Wide White Gaff Tape" parent="." index="229" unique_id=1805831367]
+material_override = ExtResource("12_vmc54")
+
+[node name="GE-26008-01_ Outpost Floor Support" parent="." index="230" unique_id=396770449]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Gaffer Tape, Red, 2in Wide, 32in Long" parent="." index="231" unique_id=1504966122]
+material_override = ExtResource("13_o2opq")
+
+[node name="34_5in Long 2in Wide White Gaff Tape_001" parent="." index="232" unique_id=1932140882]
+material_override = ExtResource("12_vmc54")
+
+[node name="GE-26010_ Outpost Exchange Border" parent="." index="234" unique_id=560611169]
+material_override = ExtResource("7_q0ooq")
+
+[node name="34_5in Long 2in Wide White Gaff Tape_002" parent="." index="235" unique_id=833231329]
+material_override = ExtResource("12_vmc54")
+
+[node name="GE-26006_ Outpost Chute Door" parent="." index="236" unique_id=1261276100]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26010_ Outpost Exchange Border_001" parent="." index="237" unique_id=1384634244]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26002_ Outpost Lower Panel" parent="." index="238" unique_id=107639946]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26003-01_ Outpost Upper Panel" parent="." index="239" unique_id=1408082511]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26009_ Outpost Exchange Ramp" parent="." index="240" unique_id=2139850611]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Gaffer Tape, Red, 2in Wide, 31_5in Long" parent="." index="245" unique_id=1154850939]
+material_override = ExtResource("13_o2opq")
+
+[node name="GE-26010_ Outpost Exchange Border_002" parent="." index="249" unique_id=895493187]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-01_ Outpost Chute Side" parent="." index="251" unique_id=1365814929]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-01_ Outpost Chute Side_001" parent="." index="252" unique_id=210237973]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-03_ Outpost Chute Bottom" parent="." index="253" unique_id=1648514111]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-02_ Outpost Chute Top" parent="." index="254" unique_id=1173800601]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00060_ Top Rail, Post_004" parent="." index="256" unique_id=1179556650]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00060_ Top Rail, Post_005" parent="." index="257" unique_id=633022389]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26004-01_ Outpost Welded Perimeter Top Rail_002" parent="." index="258" unique_id=355351926]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-03_ Outpost Frame Mid Tube_002" parent="." index="259" unique_id=118296707]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_004" parent="." index="260" unique_id=1577936047]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_004" parent="." index="261" unique_id=1209635434]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_005" parent="." index="262" unique_id=746432357]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-04_ Outpost Frame Round Tube_002" parent="." index="263" unique_id=793887867]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_005" parent="." index="264" unique_id=352342296]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26101_ Bump Plastic_006" parent="." index="265" unique_id=1405211121]
+material_override = ExtResource("3_hjrhs")
+
+[node name="GE-26101_ Bump Plastic_007" parent="." index="266" unique_id=1378827369]
+material_override = ExtResource("3_hjrhs")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_012" parent="." index="267" unique_id=357829770]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_006" parent="." index="268" unique_id=707279036]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_012" parent="." index="269" unique_id=261361897]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_012" parent="." index="270" unique_id=753307409]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_012" parent="." index="271" unique_id=1774134122]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_013" parent="." index="272" unique_id=1953858753]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_006" parent="." index="273" unique_id=1654029533]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_013" parent="." index="274" unique_id=1239251824]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_006" parent="." index="275" unique_id=968807913]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_013" parent="." index="276" unique_id=697098754]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_013" parent="." index="277" unique_id=1527056938]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_014" parent="." index="278" unique_id=1502849090]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_014" parent="." index="279" unique_id=1426699632]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26109_ Bump Socket Bulkhead, RH_007" parent="." index="280" unique_id=1737858664]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26104_ Bump Center Rib_015" parent="." index="281" unique_id=92887446]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_014" parent="." index="282" unique_id=197160032]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26106-01_ Bump Mounting Bulkhead, LH_015" parent="." index="283" unique_id=2045923247]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_014" parent="." index="284" unique_id=336590230]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26107_ Bump Pin_015" parent="." index="285" unique_id=866599014]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26105_ Bump Socket Bulkhead, LH_007" parent="." index="286" unique_id=996464498]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26108-01_ Bump Mounting Bulkhead, RH_015" parent="." index="287" unique_id=1103059182]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26103-01_ Bump Body_007" parent="." index="288" unique_id=1002414373]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26010_ Outpost Exchange Border_003" parent="." index="289" unique_id=1643281386]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26002_ Outpost Lower Panel_001" parent="." index="295" unique_id=509652215]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26003-01_ Outpost Upper Panel_001" parent="." index="296" unique_id=881285949]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26006_ Outpost Chute Door_001" parent="." index="297" unique_id=1269817756]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26009_ Outpost Exchange Ramp_001" parent="." index="298" unique_id=2097017701]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Gaffer Tape, Blue, 2in Wide, 31_5in Long" parent="." index="299" unique_id=29479456]
+material_override = ExtResource("2_ndb66")
+
+[node name="GE-26004-01_ Outpost Welded Perimeter Top Rail_003" parent="." index="300" unique_id=132365412]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00060_ Top Rail, Post_006" parent="." index="301" unique_id=1364084637]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00060_ Top Rail, Post_007" parent="." index="302" unique_id=14327058]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26008-01_ Outpost Floor Support_001" parent="." index="303" unique_id=1749801871]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26010_ Outpost Exchange Border_004" parent="." index="305" unique_id=1374204357]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26010_ Outpost Exchange Border_005" parent="." index="307" unique_id=216818863]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Gaffer Tape, Blue, 2in Wide, 32in Long" parent="." index="308" unique_id=637522595]
+material_override = ExtResource("2_ndb66")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_006" parent="." index="311" unique_id=2116683866]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_006" parent="." index="312" unique_id=1506291879]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-01_ Outpost Frame Top Tube_007" parent="." index="313" unique_id=1965934754]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-04_ Outpost Frame Round Tube_003" parent="." index="314" unique_id=777082900]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-02_ Outpost Frame Vertical Tube_007" parent="." index="315" unique_id=1930713359]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26001-03_ Outpost Frame Mid Tube_003" parent="." index="316" unique_id=1074816401]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-03_ Outpost Chute Bottom_001" parent="." index="320" unique_id=2033373620]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-02_ Outpost Chute Top_001" parent="." index="321" unique_id=2085562506]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26005-01_ Outpost Chute Side_002" parent="." index="322" unique_id=1585979693]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26005-01_ Outpost Chute Side_003" parent="." index="323" unique_id=2127745916]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-05_ 3_ x 1_4_ 6061 Aluminum Bar" parent="." index="327" unique_id=240844586]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-04_ 1_ Schedule 40 Aluminum Tube" parent="." index="328" unique_id=817108003]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-03_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing" parent="." index="332" unique_id=745478042]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-02_ 1 7_16_ Dia_ 6061 Aluminum Solid Rod" parent="." index="333" unique_id=381504382]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-01_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing" parent="." index="334" unique_id=1481381689]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing" parent="." index="335" unique_id=763280244]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_001" parent="." index="337" unique_id=1642190576]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate" parent="." index="338" unique_id=1141257298]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube" parent="." index="339" unique_id=1391814050]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_001" parent="." index="340" unique_id=888085442]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing" parent="." index="341" unique_id=901468220]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_002" parent="." index="342" unique_id=1227943934]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_001" parent="." index="343" unique_id=175180247]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_001" parent="." index="345" unique_id=459200468]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_002" parent="." index="346" unique_id=1179140475]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_001" parent="." index="347" unique_id=2067007689]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_003" parent="." index="348" unique_id=656455507]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_004" parent="." index="353" unique_id=1952520311]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_005" parent="." index="354" unique_id=812219187]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_002" parent="." index="355" unique_id=598213303]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_002" parent="." index="357" unique_id=581184114]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_005" parent="." index="358" unique_id=1074320725]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_002" parent="." index="359" unique_id=1282299820]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_003" parent="." index="360" unique_id=1572406050]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_006" parent="." index="361" unique_id=1245639212]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_007" parent="." index="362" unique_id=449773455]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_003" parent="." index="363" unique_id=486683351]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_006" parent="." index="364" unique_id=875101722]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_003" parent="." index="365" unique_id=762953240]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-05_ 3_ x 1_4_ 6061 Aluminum Bar" parent="." index="369" unique_id=1505831692]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-01_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing" parent="." index="372" unique_id=104685896]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-02_ 1 7_16_ Dia_ 6061 Aluminum Solid Rod" parent="." index="374" unique_id=1760857672]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-04_ 1_ Schedule 40 Aluminum Tube" parent="." index="375" unique_id=868902861]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-03_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing" parent="." index="376" unique_id=1325858308]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-05_ 3_ x 1_4_ 6061 Aluminum Bar_001" parent="." index="378" unique_id=737861105]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-01_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing_001" parent="." index="379" unique_id=462201326]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-03_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing_001" parent="." index="381" unique_id=358339543]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-04_ 1_ Schedule 40 Aluminum Tube_001" parent="." index="382" unique_id=903680485]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00064-02_ 1 7_16_ Dia_ 6061 Aluminum Solid Rod_001" parent="." index="384" unique_id=588874903]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_008" parent="." index="385" unique_id=1901420787]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_009" parent="." index="386" unique_id=1264379006]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_004" parent="." index="387" unique_id=598475552]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_004" parent="." index="389" unique_id=518102665]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_009" parent="." index="390" unique_id=691757329]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_004" parent="." index="391" unique_id=1391939735]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_010" parent="." index="393" unique_id=2119544233]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_005" parent="." index="394" unique_id=238106144]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_011" parent="." index="395" unique_id=1265765205]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_005" parent="." index="396" unique_id=1588720657]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_011" parent="." index="397" unique_id=62886711]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_005" parent="." index="398" unique_id=2060017435]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-01_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing_001" parent="." index="399" unique_id=998983711]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-02_ 1 7_16_ Dia_ 6061 Aluminum Solid Rod_001" parent="." index="401" unique_id=12059094]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-03_ 1 3_4_ x 1 3_4_ x 1_8_ 6061 Aluminum Tubing_001" parent="." index="402" unique_id=1705309894]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-04_ 1_ Schedule 40 Aluminum Tube_001" parent="." index="404" unique_id=1045446107]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00062-05_ 3_ x 1_4_ 6061 Aluminum Bar_001" parent="." index="406" unique_id=739330406]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00012_ Driver Station Acrylic" parent="." index="407" unique_id=1345427105]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00070_ Field Border Anchor" parent="." index="408" unique_id=433540138]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic" parent="." index="409" unique_id=895177014]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket" parent="." index="410" unique_id=207448892]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock" parent="." index="411" unique_id=2063725168]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-02_ 1-1_2_ x 1-1_2_ x 1_8_ 6061 Aluminum Angle" parent="." index="412" unique_id=467476756]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_001" parent="." index="413" unique_id=1849641902]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-01_ 2_ x 2_ x 1_8_ Square Corner 6063 Aluminum Angle" parent="." index="414" unique_id=2095638145]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_001" parent="." index="415" unique_id=1443074896]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_001" parent="." index="416" unique_id=1199144517]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-05_ 3_4_ x 3_4_ x 1_8_ Channel, 6063 Aluminum" parent="." index="417" unique_id=2128812292]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-01_ 3_16_ Diamond Plate Sheet, 6061 Aluminum" parent="." index="418" unique_id=1137636593]
+surface_material_override/0 = ExtResource("2_21r1g")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum" parent="." index="419" unique_id=1441024557]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-06_ 1_4_ Sheet, 6061 Aluminum" parent="." index="420" unique_id=1688063292]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_001" parent="." index="421" unique_id=1114160837]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum" parent="." index="422" unique_id=1071648367]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a" parent="." index="423" unique_id=1718920907]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c" parent="." index="424" unique_id=1222523542]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08b" parent="." index="425" unique_id=1898277374]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum" parent="." index="426" unique_id=1632627716]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_001" parent="." index="427" unique_id=455305168]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_001" parent="." index="428" unique_id=1667448055]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_001" parent="." index="429" unique_id=931181155]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08b_001" parent="." index="430" unique_id=1525130951]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03a" parent="." index="431" unique_id=522246016]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03b" parent="." index="432" unique_id=2013963712]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03c" parent="." index="433" unique_id=1094013115]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07d" parent="." index="434" unique_id=878578943]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07a" parent="." index="435" unique_id=703508705]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b" parent="." index="436" unique_id=483465618]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f" parent="." index="437" unique_id=883245895]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07e" parent="." index="438" unique_id=1994286030]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c" parent="." index="439" unique_id=1152523355]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02b" parent="." index="440" unique_id=1362829627]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c" parent="." index="441" unique_id=1406903295]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02a" parent="." index="442" unique_id=1879511004]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_001" parent="." index="443" unique_id=177308601]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_001" parent="." index="444" unique_id=1130977189]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_001" parent="." index="445" unique_id=1933840027]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_001" parent="." index="446" unique_id=1547570715]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07d_001" parent="." index="447" unique_id=1154769003]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_001" parent="." index="448" unique_id=813687668]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07a_001" parent="." index="449" unique_id=378889143]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_001" parent="." index="450" unique_id=665062495]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_001" parent="." index="451" unique_id=2100189372]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_001" parent="." index="452" unique_id=234916217]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00007-01_ 2_ x 2_ x 1_8_ Square Corner 6063 Aluminum Angle_001" parent="." index="453" unique_id=1031513367]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-02_ 1-1_2_ x 1-1_2_ x 1_8_ 6061 Aluminum Angle_001" parent="." index="454" unique_id=2141809722]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_002" parent="." index="455" unique_id=517323072]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_003" parent="." index="456" unique_id=1043701973]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00012_ Driver Station Acrylic_001" parent="." index="457" unique_id=1909665770]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_002" parent="." index="458" unique_id=834983950]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_002" parent="." index="459" unique_id=1333612500]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00070_ Field Border Anchor_001" parent="." index="460" unique_id=1280124635]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_003" parent="." index="461" unique_id=727455683]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_003" parent="." index="462" unique_id=769350972]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_002" parent="." index="463" unique_id=666392461]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_002" parent="." index="464" unique_id=601877734]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-05_ 3_4_ x 3_4_ x 1_8_ Channel, 6063 Aluminum_001" parent="." index="465" unique_id=558809439]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_002" parent="." index="466" unique_id=1003363170]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-01_ 3_16_ Diamond Plate Sheet, 6061 Aluminum_001" parent="." index="467" unique_id=2127187278]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00004-06_ 1_4_ Sheet, 6061 Aluminum_001" parent="." index="468" unique_id=194196678]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_002" parent="." index="469" unique_id=545973332]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07d_002" parent="." index="470" unique_id=305769620]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_002" parent="." index="471" unique_id=1884055403]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07e_002" parent="." index="472" unique_id=634654912]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_002" parent="." index="473" unique_id=1475794645]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07a_002" parent="." index="474" unique_id=536205488]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_003" parent="." index="475" unique_id=977325187]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_002" parent="." index="476" unique_id=288977812]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02a_002" parent="." index="477" unique_id=1747163112]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_002" parent="." index="478" unique_id=368594644]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_003" parent="." index="479" unique_id=1452813361]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08b_002" parent="." index="480" unique_id=470672048]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_002" parent="." index="481" unique_id=686368837]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08a_002" parent="." index="482" unique_id=20269737]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03c_001" parent="." index="483" unique_id=901945631]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-03b_001" parent="." index="484" unique_id=7017425]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03a_001" parent="." index="485" unique_id=788405762]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_003" parent="." index="486" unique_id=900219389]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_003" parent="." index="487" unique_id=616396689]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02a_003" parent="." index="488" unique_id=645372058]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_003" parent="." index="489" unique_id=877357288]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_003" parent="." index="490" unique_id=441596315]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_003" parent="." index="491" unique_id=157802687]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07d_003" parent="." index="492" unique_id=1711184703]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07a_003" parent="." index="493" unique_id=176551988]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_003" parent="." index="494" unique_id=1975141609]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08a_003" parent="." index="495" unique_id=914880782]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_003" parent="." index="496" unique_id=1778148381]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08b_003" parent="." index="497" unique_id=232429234]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_003" parent="." index="498" unique_id=1766983350]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00012_ Driver Station Acrylic_002" parent="." index="499" unique_id=392704294]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00070_ Field Border Anchor_002" parent="." index="500" unique_id=1270619545]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_004" parent="." index="501" unique_id=408817874]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_004" parent="." index="502" unique_id=1310448036]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_004" parent="." index="503" unique_id=97816482]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-02_ 1-1_2_ x 1-1_2_ x 1_8_ 6061 Aluminum Angle_002" parent="." index="504" unique_id=1213146971]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_005" parent="." index="505" unique_id=1335011737]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-01_ 2_ x 2_ x 1_8_ Square Corner 6063 Aluminum Angle_002" parent="." index="506" unique_id=1542631348]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_005" parent="." index="507" unique_id=2101864840]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_005" parent="." index="508" unique_id=573976929]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-05_ 3_4_ x 3_4_ x 1_8_ Channel, 6063 Aluminum_002" parent="." index="509" unique_id=399557208]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-01_ 3_16_ Diamond Plate Sheet, 6061 Aluminum_002" parent="." index="510" unique_id=1408561332]
+material_override = ExtResource("2_21r1g")
+surface_material_override/0 = ExtResource("2_21r1g")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_004" parent="." index="511" unique_id=1612112233]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_004" parent="." index="512" unique_id=891395807]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_004" parent="." index="513" unique_id=1843711906]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_004" parent="." index="514" unique_id=1688948052]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_004" parent="." index="515" unique_id=1411365254]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_005" parent="." index="516" unique_id=2127751856]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_005" parent="." index="517" unique_id=906226510]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_005" parent="." index="518" unique_id=881031976]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02a_005" parent="." index="519" unique_id=211466644]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_004" parent="." index="520" unique_id=1197007534]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08b_004" parent="." index="521" unique_id=1824684631]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_004" parent="." index="522" unique_id=108281783]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_004" parent="." index="523" unique_id=888711912]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07a_004" parent="." index="524" unique_id=332167331]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_004" parent="." index="525" unique_id=2052310533]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07b_004" parent="." index="526" unique_id=1262363908]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07d_004" parent="." index="527" unique_id=489662603]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_004" parent="." index="528" unique_id=2058366924]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07e_004" parent="." index="529" unique_id=751008720]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-06_ 1_4_ Sheet, 6061 Aluminum_002" parent="." index="530" unique_id=180563195]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_005" parent="." index="531" unique_id=689852984]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_005" parent="." index="532" unique_id=2136106502]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08b_005" parent="." index="533" unique_id=1622870491]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03b_002" parent="." index="534" unique_id=464686426]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03a_002" parent="." index="535" unique_id=1840269707]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03c_002" parent="." index="536" unique_id=1277613939]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_005" parent="." index="537" unique_id=1844982622]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_005" parent="." index="538" unique_id=20365351]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_005" parent="." index="539" unique_id=329478195]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07e_005" parent="." index="540" unique_id=54980477]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07a_005" parent="." index="541" unique_id=1346603830]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07d_005" parent="." index="542" unique_id=1906482593]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_005" parent="." index="543" unique_id=2132109968]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_005" parent="." index="544" unique_id=1604914211]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00012_ Driver Station Acrylic_003" parent="." index="545" unique_id=2062735149]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_006" parent="." index="546" unique_id=395178898]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-01_ 2_ x 2_ x 1_8_ Square Corner 6063 Aluminum Angle_003" parent="." index="547" unique_id=880748681]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-02_ 1-1_2_ x 1-1_2_ x 1_8_ 6061 Aluminum Angle_003" parent="." index="548" unique_id=1153240803]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_007" parent="." index="549" unique_id=1302458169]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_006" parent="." index="550" unique_id=866084381]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_006" parent="." index="551" unique_id=735317665]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00070_ Field Border Anchor_003" parent="." index="552" unique_id=1529710351]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_007" parent="." index="553" unique_id=1060530999]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_007" parent="." index="554" unique_id=1449406531]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_006" parent="." index="555" unique_id=1044862666]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_007" parent="." index="556" unique_id=649979633]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_006" parent="." index="557" unique_id=1285138716]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-06_ 1_4_ Sheet, 6061 Aluminum_003" parent="." index="558" unique_id=1635772990]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_006" parent="." index="559" unique_id=1799141337]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08b_006" parent="." index="561" unique_id=287199323]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-05_ 3_4_ x 3_4_ x 1_8_ Channel, 6063 Aluminum_003" parent="." index="562" unique_id=1872660287]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_006" parent="." index="563" unique_id=1078058382]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_006" parent="." index="564" unique_id=105243552]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_006" parent="." index="565" unique_id=641068611]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-01_ 3_16_ Diamond Plate Sheet, 6061 Aluminum_003" parent="." index="566" unique_id=1788010784]
+surface_material_override/0 = ExtResource("2_21r1g")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_006" parent="." index="567" unique_id=2069248994]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_006" parent="." index="568" unique_id=1870380238]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_006" parent="." index="569" unique_id=1271448029]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07d_006" parent="." index="570" unique_id=1488984534]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_006" parent="." index="571" unique_id=2101613940]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07c_006" parent="." index="572" unique_id=39686281]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07a_006" parent="." index="573" unique_id=1314906361]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_007" parent="." index="574" unique_id=1716180587]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_007" parent="." index="575" unique_id=393717321]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_007" parent="." index="576" unique_id=217268651]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_007" parent="." index="577" unique_id=2026866397]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_007" parent="." index="578" unique_id=1614449735]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-03a_003" parent="." index="579" unique_id=323771520]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03b_003" parent="." index="580" unique_id=952920706]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03c_003" parent="." index="581" unique_id=2117211747]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08a_007" parent="." index="582" unique_id=810919324]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08b_007" parent="." index="583" unique_id=1343196808]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_007" parent="." index="584" unique_id=2085728258]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07c_007" parent="." index="585" unique_id=1988947355]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07a_007" parent="." index="586" unique_id=2030572525]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_007" parent="." index="587" unique_id=211168097]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_007" parent="." index="588" unique_id=2075008642]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07b_007" parent="." index="589" unique_id=432843452]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07d_007" parent="." index="590" unique_id=777905371]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_006" parent="." index="591" unique_id=510469492]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_006" parent="." index="592" unique_id=2113659396]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_012" parent="." index="593" unique_id=1839184992]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_006" parent="." index="594" unique_id=1374754567]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_013" parent="." index="595" unique_id=989660391]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_012" parent="." index="596" unique_id=1372370433]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_013" parent="." index="597" unique_id=1511120705]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00010_ Field Plastic _C_" parent="." index="598" unique_id=406923355]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__001" parent="." index="600" unique_id=217215037]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00009_ Field Plastic _B_" parent="." index="603" unique_id=978790050]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00009_ Field Plastic _B__001" parent="." index="607" unique_id=876086105]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00009_ Field Plastic _B__002" parent="." index="608" unique_id=749818155]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00044_ Field Plastic _G_" parent="." index="613" unique_id=300673908]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__002" parent="." index="615" unique_id=800938263]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__003" parent="." index="616" unique_id=692334873]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00008_ Field Plastic _A_" parent="." index="624" unique_id=1821677198]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00044_ Field Plastic _G__001" parent="." index="633" unique_id=597668785]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate" parent="." index="674" unique_id=815729521]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_001" parent="." index="675" unique_id=1913238504]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00008_ Field Plastic _A__001" parent="." index="698" unique_id=2068290497]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_002" parent="." index="699" unique_id=330511319]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_003" parent="." index="706" unique_id=1016919436]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00009_ Field Plastic _B__003" parent="." index="707" unique_id=2057532384]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00070_ Field Border Anchor_004" parent="." index="731" unique_id=1623560220]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00012_ Driver Station Acrylic_004" parent="." index="732" unique_id=1472106620]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_008" parent="." index="733" unique_id=151951300]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_009" parent="." index="734" unique_id=1884139461]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-01_ 2_ x 2_ x 1_8_ Square Corner 6063 Aluminum Angle_004" parent="." index="735" unique_id=1979951004]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-02_ 1-1_2_ x 1-1_2_ x 1_8_ 6061 Aluminum Angle_004" parent="." index="736" unique_id=97685079]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_008" parent="." index="737" unique_id=1276399856]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_008" parent="." index="738" unique_id=727757314]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-05_ 3_4_ x 3_4_ x 1_8_ Channel, 6063 Aluminum_004" parent="." index="739" unique_id=1368158001]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_008" parent="." index="740" unique_id=487794149]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-01_ 3_16_ Diamond Plate Sheet, 6061 Aluminum_004" parent="." index="741" unique_id=1007223146]
+material_override = ExtResource("2_21r1g")
+surface_material_override/0 = ExtResource("2_21r1g")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_008" parent="." index="742" unique_id=1893293810]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_008" parent="." index="743" unique_id=1306478835]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_009" parent="." index="744" unique_id=914525078]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03c_004" parent="." index="745" unique_id=2071696453]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-03b_004" parent="." index="746" unique_id=2039452390]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03a_004" parent="." index="747" unique_id=699305568]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08b_008" parent="." index="748" unique_id=1024617583]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_008" parent="." index="749" unique_id=1845860171]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08a_008" parent="." index="750" unique_id=1494002794]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08b_009" parent="." index="751" unique_id=1424358898]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_009" parent="." index="752" unique_id=73925663]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_009" parent="." index="753" unique_id=545355368]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-06_ 1_4_ Sheet, 6061 Aluminum_004" parent="." index="754" unique_id=800742069]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_008" parent="." index="755" unique_id=146122452]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_008" parent="." index="756" unique_id=1064534443]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_008" parent="." index="757" unique_id=475675568]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07d_008" parent="." index="758" unique_id=1810021187]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07a_008" parent="." index="759" unique_id=241900977]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_008" parent="." index="760" unique_id=113113388]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_009" parent="." index="761" unique_id=31159208]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_008" parent="." index="762" unique_id=1300379776]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_008" parent="." index="763" unique_id=1827326354]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02b_008" parent="." index="764" unique_id=1936692039]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_009" parent="." index="765" unique_id=585407052]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_009" parent="." index="766" unique_id=441852957]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07a_009" parent="." index="767" unique_id=1239342406]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_009" parent="." index="768" unique_id=567082661]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07d_009" parent="." index="769" unique_id=1386781096]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_009" parent="." index="770" unique_id=905470839]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07e_009" parent="." index="771" unique_id=1232190289]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_009" parent="." index="772" unique_id=652351580]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_009" parent="." index="773" unique_id=365539549]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02b_009" parent="." index="774" unique_id=2039028944]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_009" parent="." index="775" unique_id=1945187400]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_009" parent="." index="776" unique_id=2003317505]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00012_ Driver Station Acrylic_005" parent="." index="777" unique_id=458108528]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00070_ Field Border Anchor_005" parent="." index="778" unique_id=230227161]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_010" parent="." index="779" unique_id=1934949625]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_010" parent="." index="780" unique_id=613361374]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00092_ Driver Station Shelf Support Plastic_011" parent="." index="781" unique_id=2052933922]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00091-01_ Driver Station Shelf Bracket_011" parent="." index="782" unique_id=1130518937]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_010" parent="." index="783" unique_id=2119859921]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-01_ 2_ x 2_ x 1_8_ Square Corner 6063 Aluminum Angle_005" parent="." index="784" unique_id=659610879]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-03_ 1-7_16_ 6061 Aluminum Round Stock_011" parent="." index="785" unique_id=2068111374]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00007-02_ 1-1_2_ x 1-1_2_ x 1_8_ 6061 Aluminum Angle_005" parent="." index="786" unique_id=30331164]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_010" parent="." index="787" unique_id=283914764]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-10_ 1_8_ Sheet, 6061 Aluminum_011" parent="." index="788" unique_id=509437497]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-06_ 1_4_ Sheet, 6061 Aluminum_005" parent="." index="789" unique_id=1110501487]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_010" parent="." index="790" unique_id=2067217693]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-01_ 3_16_ Diamond Plate Sheet, 6061 Aluminum_005" parent="." index="791" unique_id=1715304377]
+surface_material_override/0 = ExtResource("2_21r1g")
+
+[node name="FE-00004-05_ 3_4_ x 3_4_ x 1_8_ Channel, 6063 Aluminum_005" parent="." index="792" unique_id=1886442418]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_010" parent="." index="793" unique_id=1272764337]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-09_ 1_8_ Sheet, 6061 Aluminum_011" parent="." index="794" unique_id=1581360694]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_010" parent="." index="795" unique_id=1023427642]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08b_010" parent="." index="796" unique_id=601724664]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_010" parent="." index="797" unique_id=1022273561]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07c_010" parent="." index="798" unique_id=1750330727]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07a_010" parent="." index="799" unique_id=1627780408]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07b_010" parent="." index="800" unique_id=99751334]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_010" parent="." index="801" unique_id=2072207945]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_010" parent="." index="802" unique_id=957564774]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07d_010" parent="." index="803" unique_id=803579767]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08c_011" parent="." index="804" unique_id=1381285969]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-08b_011" parent="." index="805" unique_id=1014183739]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-08a_011" parent="." index="806" unique_id=163490079]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02b_010" parent="." index="807" unique_id=927381778]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02a_010" parent="." index="808" unique_id=349020982]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_010" parent="." index="809" unique_id=1054459608]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02b_011" parent="." index="810" unique_id=1777887430]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-02c_011" parent="." index="811" unique_id=622226380]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-02a_011" parent="." index="812" unique_id=1556033132]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03a_005" parent="." index="813" unique_id=1893547428]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-03c_005" parent="." index="814" unique_id=784948993]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-03b_005" parent="." index="815" unique_id=1031498752]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-04_ 1-3_4_ x 1_8_ Square Tube, 6061 Aluminum_011" parent="." index="816" unique_id=1443950549]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07e_011" parent="." index="817" unique_id=1982762854]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07d_011" parent="." index="818" unique_id=629114512]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07f_011" parent="." index="819" unique_id=316564886]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07b_011" parent="." index="820" unique_id=2088116370]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00004-07c_011" parent="." index="821" unique_id=2049079515]
+material_override = ExtResource("4_8xcjm")
+
+[node name="FE-00004-07a_011" parent="." index="822" unique_id=2140699117]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_014" parent="." index="824" unique_id=1365301621]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-01_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_015" parent="." index="825" unique_id=736643258]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-02_ 1_4_ 6061 Aluminum Plate_007" parent="." index="826" unique_id=1966061081]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-05_ 1-3_4_ x 1-3_4_ x 1_8_ 6061 Aluminum Tubing_007" parent="." index="827" unique_id=632662930]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-03_ 1_ Schedule 40 Aluminum Tube_007" parent="." index="828" unique_id=1751863711]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00001-04_ 1-7_16_ Diameter 6061 Aluminum Rod_015" parent="." index="829" unique_id=350538288]
+material_override = ExtResource("7_q0ooq")
+
+[node name="FE-00009_ Field Plastic _B__004" parent="." index="832" unique_id=773948300]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00009_ Field Plastic _B__005" parent="." index="833" unique_id=1870366564]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00009_ Field Plastic _B__006" parent="." index="836" unique_id=547069099]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__004" parent="." index="837" unique_id=1032969768]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__005" parent="." index="856" unique_id=253876384]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_004" parent="." index="857" unique_id=444372026]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_005" parent="." index="864" unique_id=1307314520]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00009_ Field Plastic _B__007" parent="." index="865" unique_id=341153635]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__006" parent="." index="873" unique_id=1461656013]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00044_ Field Plastic _G__002" parent="." index="877" unique_id=738422094]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00010_ Field Plastic _C__007" parent="." index="879" unique_id=1278803729]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00008_ Field Plastic _A__002" parent="." index="880" unique_id=325792180]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_006" parent="." index="913" unique_id=224156661]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00014-01_ 3_16_ 3003 Aluminum Diamond Plate_007" parent="." index="914" unique_id=1217661989]
+material_override = ExtResource("2_21r1g")
+
+[node name="FE-00044_ Field Plastic _G__003" parent="." index="925" unique_id=755953579]
+material_override = ExtResource("9_6c2sn")
+
+[node name="FE-00008_ Field Plastic _A__003" parent="." index="962" unique_id=1022077438]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26211_ Trench Outside Skirt_002" parent="." index="963" unique_id=484939665]
+material_override = SubResource("StandardMaterial3D_q0ooq")
+
+[node name="GE-26213_ Trench Side Skirt_004" parent="." index="964" unique_id=1079945714]
+material_override = SubResource("StandardMaterial3D_6c2sn")
+
+[node name="GE-26224_ Trench Fixed Arm_001" parent="." index="968" unique_id=1050439203]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26225_ Trench Fixed Arm Bracket_002" parent="." index="970" unique_id=8177673]
+surface_material_override/0 = ExtResource("2_marwo")
+
+[node name="GE-26225_ Trench Fixed Arm Bracket_003" parent="." index="971" unique_id=167216364]
+material_override = ExtResource("2_marwo")
+
+[node name="GE-26212_ Trench Inside Skirt_002" parent="." index="973" unique_id=140633657]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26221-01_ Trench Fixed Riser Outside Body_001" parent="." index="974" unique_id=1362608886]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26222-01_ Trench Fixed Riser Inside Body_001" parent="." index="975" unique_id=857254748]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26208_ Trench Riser Bottom_002" parent="." index="976" unique_id=1493760979]
+surface_material_override/0 = ExtResource("4_8xcjm")
+
+[node name="GE-26213_ Trench Side Skirt_005" parent="." index="977" unique_id=281507078]
+material_override = SubResource("StandardMaterial3D_ndb66")
+
+[node name="GE-26219_ Trench Top Hard Stop_001" parent="." index="985" unique_id=1460884059]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26212_ Trench Inside Skirt_003" parent="." index="989" unique_id=940362093]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26213_ Trench Side Skirt_006" parent="." index="990" unique_id=1494029243]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26213_ Trench Side Skirt_007" parent="." index="991" unique_id=924113141]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26218-01_ Trench Bottom Hard Stop Body_002" parent="." index="992" unique_id=1208967981]
+material_override = ExtResource("5_dtukd")
+
+[node name="6303K57_ Lever Handle with Ball Knob_001" parent="." index="993" unique_id=1716741952]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26216-01_ Trench Arm Pin Body_001" parent="." index="994" unique_id=1914012745]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26211_ Trench Outside Skirt_003" parent="." index="996" unique_id=691959295]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-03_ Trench Hinged Arm Side Tube_002" parent="." index="997" unique_id=287687702]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-01_ Trench Hinged Arm Main Tube_001" parent="." index="998" unique_id=563518333]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-04_ Trench Hinged Arm End Cap_001" parent="." index="999" unique_id=1667306547]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-03_ Trench Hinged Arm Side Tube_003" parent="." index="1000" unique_id=1960440053]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-05_ Trench Hinged Arm Side Cap_002" parent="." index="1001" unique_id=129813709]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-05_ Trench Hinged Arm Side Cap_003" parent="." index="1002" unique_id=600941530]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26214-06_ Trench Hinged Arm Pivot Tube_002" parent="." index="1003" unique_id=390630706]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26214-06_ Trench Hinged Arm Pivot Tube_003" parent="." index="1004" unique_id=2102638257]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26214-02_ Trench Hinged Arm Cross Tube_001" parent="." index="1005" unique_id=56913033]
+material_override = ExtResource("6_id5he")
+
+[node name="GE-26209_ Trench Hinged Riser Doubler Plate_002" parent="." index="1006" unique_id=1640556153]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26210_ Trench Hinged Riser Sleeve_003" parent="." index="1007" unique_id=414555691]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26206-01_ Trench Hinged Riser Inside Body_001" parent="." index="1008" unique_id=523536005]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26210_ Trench Hinged Riser Sleeve_004" parent="." index="1009" unique_id=1312187746]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26207-01_ Trench Hinged Riser Top_001" parent="." index="1010" unique_id=1353452074]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26205-01_ Trench Hinged Riser Outside Body_001" parent="." index="1012" unique_id=1651293981]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26209_ Trench Hinged Riser Doubler Plate_003" parent="." index="1013" unique_id=2069166162]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26210_ Trench Hinged Riser Sleeve_005" parent="." index="1014" unique_id=1953482248]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26218-01_ Trench Bottom Hard Stop Body_003" parent="." index="1015" unique_id=1021954939]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26215_ Trench Pivot Shaft_001" parent="." index="1016" unique_id=314879826]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26217-01_ Trench Counterbalance Riser Pin_001" parent="." index="1018" unique_id=2025548130]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26333_ Hub Ramp, Large" parent="." index="1019" unique_id=413410347]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26331_ Hub Internal Wall" parent="." index="1020" unique_id=127721300]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.0082107, 1.2246611, -0.00092795445)
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26331_ Hub Internal Wall_001" parent="." index="1021" unique_id=39907707]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26314_ Hub Light Mount" parent="." index="1031" unique_id=1258272026]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26328_ Hub Front Panel, Bottom" parent="." index="1032" unique_id=590866215]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26305_ Hub Side Panel" parent="." index="1034" unique_id=1891858206]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26303-01_ Hub Roof Riser, Right" parent="." index="1035" unique_id=1509585724]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26304_ Hub Roof Panel" parent="." index="1036" unique_id=1597897168]
+material_override = ExtResource("5_kf3e2")
+
+[node name="GE-26305_ Hub Side Panel_001" parent="." index="1038" unique_id=1234297542]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26306_ Hub Rear Panel, Bottom" parent="." index="1042" unique_id=562069002]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26308_ Hub Front Panel, Top" parent="." index="1043" unique_id=1461323896]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26308_ Hub Front Panel, Top_001" parent="." index="1047" unique_id=1542253157]
+material_override = ExtResource("5_dtukd")
+
+[node name="Case" parent="." index="1048" unique_id=935042026]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Diffuser" parent="." index="1049" unique_id=1731445371]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob" parent="." index="1050" unique_id=1700272321]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_001" parent="." index="1051" unique_id=110330852]
+material_override = ExtResource("4_8xcjm")
+
+[node name="GE-26318_ Hub Net (Aesthetic)" parent="." index="1052" unique_id=230704596]
+material_override = ExtResource("8_i5i0b")
+
+[node name="GE-26315-01_ Hub Funnel Base" parent="." index="1055" unique_id=1935422136]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26313-01_ Hub Roof Riser, Left" parent="." index="1056" unique_id=1439033313]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical" parent="." index="1058" unique_id=1532369291]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_001" parent="." index="1059" unique_id=1271900013]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-03_ Hub Side Frame, Middle Horizontal" parent="." index="1060" unique_id=57679283]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-02_ Hub Side Frame, Bottom Horizontal" parent="." index="1061" unique_id=984314294]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-04_ Hub Side Frame, Top Horizontal" parent="." index="1062" unique_id=846857367]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26314_ Hub Light Mount_001" parent="." index="1064" unique_id=565483588]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26332_ Hub Ramp, Small" parent="." index="1068" unique_id=1461568910]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_002" parent="." index="1085" unique_id=77111237]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_003" parent="." index="1086" unique_id=1743501154]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Diffuser_001" parent="." index="1087" unique_id=929392428]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Case_001" parent="." index="1088" unique_id=1124816200]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace" parent="." index="1089" unique_id=705034511]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar" parent="." index="1092" unique_id=563204741]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26314_ Hub Light Mount_002" parent="." index="1093" unique_id=1733342173]
+transform = Transform3D(-1, 0, 1.6920656e-25, 0, 1, 0, -1.6920656e-25, 0, -1, -4.082803, 1.234989, -0.48110896)
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_004" parent="." index="1094" unique_id=1507384805]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_005" parent="." index="1095" unique_id=603632933]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Diffuser_002" parent="." index="1096" unique_id=2097217257]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Case_002" parent="." index="1097" unique_id=779952215]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_001" parent="." index="1099" unique_id=1108798485]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_001" parent="." index="1100" unique_id=1384208941]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_002" parent="." index="1101" unique_id=1501795640]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_002" parent="." index="1102" unique_id=814562869]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_006" parent="." index="1106" unique_id=907491426]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_007" parent="." index="1107" unique_id=958792444]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Case_003" parent="." index="1108" unique_id=466162225]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Diffuser_003" parent="." index="1109" unique_id=1027503956]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26301-02_ Hub Base, Brace" parent="." index="1110" unique_id=857423164]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26301-01_ Hub Base" parent="." index="1111" unique_id=1357081621]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26301-02_ Hub Base, Brace_001" parent="." index="1112" unique_id=1486634221]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26316-01_ Hub Ramp Angle" parent="." index="1114" unique_id=154790397]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_003" parent="." index="1115" unique_id=1538675172]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-03_ Hub Side Frame, Middle Horizontal_001" parent="." index="1116" unique_id=312795872]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_002" parent="." index="1117" unique_id=22346974]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_003" parent="." index="1118" unique_id=381531397]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-02_ Hub Side Frame, Bottom Horizontal_001" parent="." index="1119" unique_id=436784093]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-04_ Hub Side Frame, Top Horizontal_001" parent="." index="1120" unique_id=1980435223]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_003" parent="." index="1121" unique_id=732423917]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_004" parent="." index="1122" unique_id=2119724229]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26316-01_ Hub Ramp Angle_001" parent="." index="1123" unique_id=785139886]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26314_ Hub Light Mount_003" parent="." index="1125" unique_id=776614453]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_004" parent="." index="1126" unique_id=112512505]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_005" parent="." index="1127" unique_id=1327502156]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider" parent="." index="1128" unique_id=44692639]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26403-01_ Bottom Plate" parent="." index="1129" unique_id=1822544212]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26417-01_ Gearbox Cover" parent="." index="1130" unique_id=398225378]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26402-01_ Top Plate" parent="." index="1141" unique_id=198261524]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_001" parent="." index="1142" unique_id=1786690378]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_002" parent="." index="1147" unique_id=1658266370]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_003" parent="." index="1152" unique_id=1200347355]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_004" parent="." index="1155" unique_id=1000734221]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26401_ Counter Side Plate" parent="." index="1160" unique_id=812259375]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26401_ Counter Side Plate_001" parent="." index="1165" unique_id=720458445]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26407-01_ Inlet Funnel" parent="." index="1166" unique_id=106356197]
+material_override = ExtResource("7_q0ooq")
+
+[node name="REV-21-2246" parent="." index="1167" unique_id=306445811]
+material_override = ExtResource("7_q0ooq")
+
+[node name="REV-21-2246_001" parent="." index="1168" unique_id=1836390570]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_005" parent="." index="1169" unique_id=1038464758]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26407-01_ Inlet Funnel_001" parent="." index="1174" unique_id=2113362036]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26304_ Hub Roof Panel_001" parent="." index="1175" unique_id=1772335873]
+material_override = ExtResource("3_hjrhs")
+
+[node name="GE-26325_ Hub Net Pole, Short_002" parent="." index="1177" unique_id=775313415]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26335_ Hub Pole Corner Brace_002" parent="." index="1178" unique_id=887122271]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26330_ Hub Net Pole, Bottom_001" parent="." index="1180" unique_id=1700023431]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26325_ Hub Net Pole, Short_003" parent="." index="1185" unique_id=226145188]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26326_ Hub Net Pole, Top_001" parent="." index="1186" unique_id=622772632]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26335_ Hub Pole Corner Brace_003" parent="." index="1187" unique_id=290684906]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26303-01_ Hub Roof Riser, Right_001" parent="." index="1188" unique_id=720915333]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26324_ Hub Net Pole, Long_002" parent="." index="1189" unique_id=1041973052]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26318_ Hub Net (Aesthetic)_001" parent="." index="1190" unique_id=863889484]
+material_override = ExtResource("8_i5i0b")
+
+[node name="GE-26334_ Hub Pole Connector Bracket_002" parent="." index="1191" unique_id=131966686]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26333_ Hub Ramp, Large_001" parent="." index="1192" unique_id=1218058217]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26320-01_ Hub Net Pole Holder 2, Right_001" parent="." index="1193" unique_id=631835938]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26308_ Hub Front Panel, Top_002" parent="." index="1194" unique_id=345471075]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26328_ Hub Front Panel, Bottom_001" parent="." index="1195" unique_id=1062268041]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26306_ Hub Rear Panel, Bottom_001" parent="." index="1196" unique_id=1572270067]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26334_ Hub Pole Connector Bracket_003" parent="." index="1197" unique_id=548101598]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26331_ Hub Internal Wall_002" parent="." index="1198" unique_id=1229054781]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26305_ Hub Side Panel_002" parent="." index="1201" unique_id=444921284]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26308_ Hub Front Panel, Top_003" parent="." index="1202" unique_id=969649566]
+material_override = ExtResource("5_dtukd")
+
+[node name="GE-26324_ Hub Net Pole, Long_003" parent="." index="1204" unique_id=350626076]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Case_004" parent="." index="1206" unique_id=407850815]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_008" parent="." index="1207" unique_id=378944591]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_009" parent="." index="1208" unique_id=298989993]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Diffuser_004" parent="." index="1209" unique_id=138370956]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26305_ Hub Side Panel_003" parent="." index="1210" unique_id=1788425084]
+material_override = ExtResource("9_6c2sn")
+
+[node name="GE-26314_ Hub Light Mount_004" parent="." index="1211" unique_id=634636115]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26315-01_ Hub Funnel Base_001" parent="." index="1212" unique_id=73731615]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26313-01_ Hub Roof Riser, Left_001" parent="." index="1217" unique_id=54860228]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26323-01_ Hub Net Pole Holder 2, Left_001" parent="." index="1218" unique_id=1917938575]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26319-01_ Hub Net Pole Holder 1, Right_001" parent="." index="1219" unique_id=2079018564]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_004" parent="." index="1227" unique_id=344517481]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_005" parent="." index="1228" unique_id=2082439719]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-04_ Hub Side Frame, Top Horizontal_002" parent="." index="1229" unique_id=1093985936]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-02_ Hub Side Frame, Bottom Horizontal_002" parent="." index="1230" unique_id=1441851277]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-03_ Hub Side Frame, Middle Horizontal_002" parent="." index="1231" unique_id=787985625]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26314_ Hub Light Mount_006" parent="." index="1238" unique_id=1641172118]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26322-01_ Hub Net Pole Holder 1, Left_001" parent="." index="1239" unique_id=884966994]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_010" parent="." index="1240" unique_id=1979022318]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_011" parent="." index="1241" unique_id=1143518410]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Diffuser_005" parent="." index="1242" unique_id=2113183437]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Case_005" parent="." index="1243" unique_id=1584237971]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_006" parent="." index="1244" unique_id=175136264]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26332_ Hub Ramp, Small_001" parent="." index="1245" unique_id=1422233191]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_005" parent="." index="1247" unique_id=1448682888]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26331_ Hub Internal Wall_003" parent="." index="1254" unique_id=1595963646]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26316-01_ Hub Ramp Angle_002" parent="." index="1255" unique_id=1269437239]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_007" parent="." index="1257" unique_id=1158744009]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_012" parent="." index="1258" unique_id=1962059596]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Case_006" parent="." index="1260" unique_id=52217102]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Diffuser_006" parent="." index="1261" unique_id=2099065050]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_008" parent="." index="1262" unique_id=1116343255]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26314_ Hub Light Mount_007" parent="." index="1263" unique_id=1208882734]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26316-01_ Hub Ramp Angle_003" parent="." index="1264" unique_id=1529713007]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_007" parent="." index="1265" unique_id=98970062]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_006" parent="." index="1266" unique_id=1529095717]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-03_ Hub Side Frame, Middle Horizontal_003" parent="." index="1267" unique_id=1386583584]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-01_ Hub Side Frame, Front Vertical_007" parent="." index="1268" unique_id=273033404]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-02_ Hub Side Frame, Bottom Horizontal_003" parent="." index="1269" unique_id=339311776]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26317-04_ Hub Side Frame, Top Horizontal_003" parent="." index="1270" unique_id=2099261898]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_009" parent="." index="1271" unique_id=1950358281]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_008" parent="." index="1273" unique_id=387457953]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_010" parent="." index="1274" unique_id=1535586535]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26301-02_ Hub Base, Brace_002" parent="." index="1275" unique_id=716709218]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26301-02_ Hub Base, Brace_003" parent="." index="1276" unique_id=2037083547]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26301-01_ Hub Base_001" parent="." index="1277" unique_id=727530802]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Diffuser_007" parent="." index="1278" unique_id=343256156]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Knob_014" parent="." index="1279" unique_id=541837316]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Knob_015" parent="." index="1280" unique_id=1300526989]
+material_override = ExtResource("4_8xcjm")
+
+[node name="Case_007" parent="." index="1281" unique_id=1952059162]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26312-01_ Hub Crossbar_009" parent="." index="1282" unique_id=954995000]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26402-01_ Top Plate_001" parent="." index="1283" unique_id=1619480675]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26417-01_ Gearbox Cover_001" parent="." index="1284" unique_id=1482144559]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_006" parent="." index="1285" unique_id=1040620384]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_007" parent="." index="1288" unique_id=1232194169]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26403-01_ Bottom Plate_001" parent="." index="1289" unique_id=1484301360]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_008" parent="." index="1292" unique_id=107922799]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_009" parent="." index="1299" unique_id=501353834]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_010" parent="." index="1300" unique_id=463054097]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26401_ Counter Side Plate_002" parent="." index="1307" unique_id=311285476]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26407-01_ Inlet Funnel_002" parent="." index="1308" unique_id=1649221999]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26407-01_ Inlet Funnel_003" parent="." index="1309" unique_id=332888241]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26401_ Counter Side Plate_003" parent="." index="1318" unique_id=1801961381]
+material_override = ExtResource("7_q0ooq")
+
+[node name="REV-21-2246_002" parent="." index="1325" unique_id=921243269]
+material_override = ExtResource("7_q0ooq")
+
+[node name="REV-21-2246_003" parent="." index="1326" unique_id=1039366866]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26404_ Counter Middle Divider_011" parent="." index="1329" unique_id=2018839151]
+material_override = ExtResource("7_q0ooq")
+
+[node name="GE-26302-01_ Hub Brace_011" parent="." index="1330" unique_id=1675669585]
+material_override = ExtResource("7_q0ooq")
+
+[node name="Carpet" parent="." index="1331" unique_id=36840687]
+material_override = ExtResource("2_5rvun")
+surface_material_override/0 = ExtResource("2_5rvun")

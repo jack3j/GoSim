@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://mko567y4moty"]
+
+[ext_resource type="Texture2D" uid="uid://bkqik2o7le6qc" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Color_Blue.png" id="1_4vijk"]
+[ext_resource type="Texture2D" uid="uid://dutwpqrsd4xt1" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Displacement.png" id="2_kpimm"]
+[ext_resource type="Texture2D" uid="uid://d27uag5vat2ih" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Metalness.png" id="3_u6tqw"]
+[ext_resource type="Texture2D" uid="uid://b8p5cu7oawsxm" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_NormalGL.png" id="4_qcla7"]
+[ext_resource type="Texture2D" uid="uid://bqq655xbmdke3" path="res://assets/materials/MetalPainted/Metal031_1K-PNG_Roughness.png" id="5_ctdjt"]
+
+[resource]
+albedo_texture = ExtResource("1_4vijk")
+metallic = 0.2
+metallic_texture = ExtResource("3_u6tqw")
+metallic_texture_channel = 4
+roughness_texture = ExtResource("5_ctdjt")
+roughness_texture_channel = 4
+normal_enabled = true
+normal_texture = ExtResource("4_qcla7")
+heightmap_enabled = true
+heightmap_scale = 1.0
+heightmap_texture = ExtResource("2_kpimm")
+uv1_scale = Vector3(20, 20, 20)
